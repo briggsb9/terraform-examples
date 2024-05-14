@@ -1,0 +1,5 @@
+pa-cloudngfw/.terraform.lock.hcl
+pa-cloudngfw/.terraform/*
+*.tfstate
+*.backup
+*.tfvars
