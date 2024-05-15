@@ -30,7 +30,7 @@ Before you begin, ensure you have:
     terraform init
     ```
 
-4. Adjust the `variables.tfvars` file according to your environment. Here's an example:
+4. Create a `terraform.tfvars` file according to your environment. Here's an example:
 
     ```hcl
     location                 = "uksouth"
@@ -45,13 +45,13 @@ Before you begin, ensure you have:
 5. Review the Terraform plan to ensure it matches your expectations:
 
     ```bash
-    terraform plan -var-file=variables.tfvars
+    terraform plan -var-file=terraform.tfvars
     ```
 
 6. Apply the Terraform configuration to create the resources:
 
     ```bash
-    terraform apply -var-file=variables.tfvars
+    terraform apply -var-file=terraform.tfvars
     ```
 
 ## Resources Created
