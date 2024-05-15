@@ -67,4 +67,4 @@ Before you begin, ensure you have:
 
 ## Customization
 
-You can customize the deployment by adjusting variables in the `variables.tfvars` file. For example, you can change the location, resource naming conventions, subnet
+You can customize the deployment by adjusting variables in your '*.tfvars` file. For example, you can change the location, resource naming conventions, subnet
