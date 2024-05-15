@@ -33,13 +33,13 @@ Before you begin, ensure you have:
 4. Create a `terraform.tfvars` file according to your environment. Here's an example:
 
     ```hcl
-    location                 = "uksouth"
-    resource_prefix          = "demo"
-    resource_suffix          = "01"
-    subnet_address_prefix_trust  = ["10.0.1.0/24"]
-    subnet_address_prefix_untrust = ["10.0.2.0/24"]
-    enable_panorama          = true
-    panorama_base64_config   = "<base64_encoded_panorama_config>"
+    location                        = "uksouth"
+    resource_prefix                 = "demo"
+    resource_suffix                 = "01"
+    subnet_address_prefix_trust     = ["10.0.1.0/24"]
+    subnet_address_prefix_untrust   = ["10.0.2.0/24"]
+    enable_panorama                 = true
+    panorama_base64_config          = "<base64_encoded_panorama_config>"
     ```
 
 5. Review the Terraform plan to ensure it matches your expectations:
