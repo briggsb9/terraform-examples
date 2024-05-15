@@ -27,3 +27,13 @@ variable "subnet_address_prefix_untrust" {
   type        = list(string)
   default     = ["10.0.2.0/24"]
 }
+variable "enable_panorama" {
+  description = "manage via panorama?"
+  type        = bool
+  default     = false
+}
+variable "panorama_base64_config" {
+  description = "The base64 encoded configuration for the Panorama device."
+  type        = string
+  default = ""
+}
