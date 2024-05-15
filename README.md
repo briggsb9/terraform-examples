@@ -1,6 +1,6 @@
-# Terraform Templates Repository
+# Terraform Examples Repository
 
-Welcome to the Terraform Templates Repository! This repository contains various Terraform templates for different scenarios, organised into folders for easy navigation and usage. Each folder represents a specific infrastructure scenario or use case.
+This repository contains various Terraform templates for different scenarios, organised into folders for easy navigation and usage. Each folder represents a specific infrastructure scenario or use case.
 
 ## Available Templates
 
