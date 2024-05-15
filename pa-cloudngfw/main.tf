@@ -17,7 +17,7 @@ resource "azurerm_network_security_group" "nsg" {
   resource_group_name = azurerm_resource_group.rg.name
 }
 
-resource "azurerm_network_security_rule" "example" {
+resource "azurerm_network_security_rule" "nsg_rule" {
   name                        = "AllowInternetInbound"
   priority                    = 100
   direction                   = "Inbound"
